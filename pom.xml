@@ -17,7 +17,20 @@
         <maven.compiler.target>1.6</maven.compiler.target>        
     </properties>
 
-   <dependencies>
+    <distributionManagement>
+      <repository>
+        <id>deployment</id>
+        <name>Internal Repo</name>
+        <url>http://35.241.174.14:8081/repository/sample-release/</url>
+      </repository>
+      <snapshotRepository>
+        <id>deployment</id>
+        <name>Internal Repo</name>
+        <url>http://35.241.174.14:8081/repository/sample-release</url>
+      </snapshotRepository>
+    </distributionManagement>    
+   
+    <dependencies>
         <dependency>
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
