@@ -20,12 +20,12 @@
     <distributionManagement>
       <repository>
         <id>nexus-snapshots</id>
-        <name>Internal Repo</name>
+        <name>Internal Repository Releases</name>
         <url>http://35.241.174.14:8081/repository/sample-release/</url>
       </repository>
       <snapshotRepository>
         <id>nexus-snapshots</id>
-        <name>Internal Repo</name>
+        <name>Internal Repository Releases</name>
         <url>http://35.241.174.14:8081/repository/sample-release</url>
       </snapshotRepository>
     </distributionManagement>    
