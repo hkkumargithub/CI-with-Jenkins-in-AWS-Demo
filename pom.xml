@@ -21,12 +21,12 @@
       <repository>
         <id>nexus-snapshots</id>
         <name>Internal Repository Releases</name>
-        <url>http://35.241.174.14:8081/repository/sample-release/</url>
+        <url>http://localhost:8081/repository/maven-releases/</url>
       </repository>
       <snapshotRepository>
         <id>nexus-snapshots</id>
         <name>Internal Repository Releases</name>
-        <url>http://35.241.174.14:8081/repository/sample-release</url>
+        <url>http://localhost:8081/repository/maven-releases/</url>
       </snapshotRepository>
     </distributionManagement>    
    
