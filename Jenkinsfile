@@ -6,7 +6,7 @@ pipeline {
 
         PROJECT_ID = 'peak-radius-261019'
 
-        CLUSTER_NAME = 'k8s-cluster-demo'
+        CLUSTER_NAME = 'k8s-cluster-1'
 
         LOCATION = 'us-central1-c'
 
