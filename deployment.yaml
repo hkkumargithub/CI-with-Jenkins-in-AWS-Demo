@@ -2,7 +2,7 @@ apiVersion: v1
 kind: Node
 metadata:
   annotations:
-    container.googleapis.com/instance_id: "2882712249427763214"
+    container.googleapis.com/instance_id: "135493253843591182"
     node.alpha.kubernetes.io/ttl: "0"
     volumes.kubernetes.io/controller-managed-attach-detach: "true"
   creationTimestamp: "2020-03-06T19:07:28Z"
@@ -16,24 +16,24 @@ metadata:
     failure-domain.beta.kubernetes.io/region: us-central1
     failure-domain.beta.kubernetes.io/zone: us-central1-c
     kubernetes.io/arch: amd64
-    kubernetes.io/hostname: gke-k8s-cluster-demo-default-pool-5b9c96b3-cc12
+    kubernetes.io/hostname: gke-k8s-cluster-demo-default-pool-5b9c96b3-slz1
     kubernetes.io/os: linux
-  name: gke-k8s-cluster-demo-default-pool-5b9c96b3-cc12
-  resourceVersion: "43580"
-  selfLink: /api/v1/nodes/gke-k8s-cluster-demo-default-pool-5b9c96b3-cc12
-  uid: b8c939f8-5fdd-11ea-b159-42010a800fed
+  name: gke-k8s-cluster-demo-default-pool-5b9c96b3-slz1
+  resourceVersion: "46774"
+  selfLink: /api/v1/nodes/gke-k8s-cluster-demo-default-pool-5b9c96b3-slz1
+  uid: b8be594a-5fdd-11ea-b159-42010a800fed
 spec:
-  podCIDR: 10.40.2.0/24
-  providerID: gce://peak-radius-261019/us-central1-c/gke-k8s-cluster-demo-default-pool-5b9c96b3-cc12
+  podCIDR: 10.40.1.0/24
+  providerID: gce://peak-radius-261019/us-central1-c/gke-k8s-cluster-demo-default-pool-5b9c96b3-slz1
 status:
   addresses:
-  - address: 10.128.0.3
+  - address: 10.128.0.4
     type: InternalIP
-  - address: 34.69.195.170
+  - address: 35.238.81.73
     type: ExternalIP
-  - address: gke-k8s-cluster-demo-default-pool-5b9c96b3-cc12.us-central1-c.c.peak-radius-261019.internal
+  - address: gke-k8s-cluster-demo-default-pool-5b9c96b3-slz1.us-central1-c.c.peak-radius-261019.internal
     type: InternalDNS
-  - address: gke-k8s-cluster-demo-default-pool-5b9c96b3-cc12.us-central1-c.c.peak-radius-261019.internal
+  - address: gke-k8s-cluster-demo-default-pool-5b9c96b3-slz1.us-central1-c.c.peak-radius-261019.internal
     type: Hostname
   allocatable:
     attachable-volumes-gce-pd: "127"
@@ -50,73 +50,73 @@ status:
     memory: 3786684Ki
     pods: "110"
   conditions:
-  - lastHeartbeatTime: "2020-03-06T22:29:34Z"
-    lastTransitionTime: "2020-03-06T19:07:31Z"
-    message: kernel has no deadlock
-    reason: KernelHasNoDeadlock
-    status: "False"
-    type: KernelDeadlock
-  - lastHeartbeatTime: "2020-03-06T22:29:34Z"
-    lastTransitionTime: "2020-03-06T19:07:31Z"
-    message: Filesystem is not read-only
-    reason: FilesystemIsNotReadOnly
-    status: "False"
-    type: ReadonlyFilesystem
-  - lastHeartbeatTime: "2020-03-06T22:29:34Z"
-    lastTransitionTime: "2020-03-06T19:07:31Z"
+  - lastHeartbeatTime: "2020-03-06T22:44:26Z"
+    lastTransitionTime: "2020-03-06T19:07:29Z"
     message: docker overlay2 is functioning properly
     reason: NoCorruptDockerOverlay2
     status: "False"
     type: CorruptDockerOverlay2
-  - lastHeartbeatTime: "2020-03-06T22:29:34Z"
-    lastTransitionTime: "2020-03-06T19:07:31Z"
+  - lastHeartbeatTime: "2020-03-06T22:44:26Z"
+    lastTransitionTime: "2020-03-06T19:07:29Z"
     message: node is functioning properly
     reason: NoFrequentUnregisterNetDevice
     status: "False"
     type: FrequentUnregisterNetDevice
-  - lastHeartbeatTime: "2020-03-06T22:29:34Z"
-    lastTransitionTime: "2020-03-06T19:07:31Z"
+  - lastHeartbeatTime: "2020-03-06T22:44:26Z"
+    lastTransitionTime: "2020-03-06T19:07:29Z"
     message: kubelet is functioning properly
     reason: NoFrequentKubeletRestart
     status: "False"
     type: FrequentKubeletRestart
-  - lastHeartbeatTime: "2020-03-06T22:29:34Z"
-    lastTransitionTime: "2020-03-06T19:07:31Z"
+  - lastHeartbeatTime: "2020-03-06T22:44:26Z"
+    lastTransitionTime: "2020-03-06T19:07:29Z"
     message: docker is functioning properly
     reason: NoFrequentDockerRestart
     status: "False"
     type: FrequentDockerRestart
-  - lastHeartbeatTime: "2020-03-06T22:29:34Z"
-    lastTransitionTime: "2020-03-06T19:07:31Z"
+  - lastHeartbeatTime: "2020-03-06T22:44:26Z"
+    lastTransitionTime: "2020-03-06T19:07:29Z"
     message: containerd is functioning properly
     reason: NoFrequentContainerdRestart
     status: "False"
     type: FrequentContainerdRestart
+  - lastHeartbeatTime: "2020-03-06T22:44:26Z"
+    lastTransitionTime: "2020-03-06T19:07:29Z"
+    message: kernel has no deadlock
+    reason: KernelHasNoDeadlock
+    status: "False"
+    type: KernelDeadlock
+  - lastHeartbeatTime: "2020-03-06T22:44:26Z"
+    lastTransitionTime: "2020-03-06T19:07:29Z"
+    message: Filesystem is not read-only
+    reason: FilesystemIsNotReadOnly
+    status: "False"
+    type: ReadonlyFilesystem
   - lastHeartbeatTime: "2020-03-06T19:07:29Z"
     lastTransitionTime: "2020-03-06T19:07:29Z"
     message: NodeController create implicit route
     reason: RouteCreated
     status: "False"
     type: NetworkUnavailable
-  - lastHeartbeatTime: "2020-03-06T22:29:19Z"
-    lastTransitionTime: "2020-03-06T19:07:28Z"
+  - lastHeartbeatTime: "2020-03-06T22:44:50Z"
+    lastTransitionTime: "2020-03-06T19:07:27Z"
     message: kubelet has sufficient memory available
     reason: KubeletHasSufficientMemory
     status: "False"
     type: MemoryPressure
-  - lastHeartbeatTime: "2020-03-06T22:29:19Z"
-    lastTransitionTime: "2020-03-06T19:07:28Z"
+  - lastHeartbeatTime: "2020-03-06T22:44:50Z"
+    lastTransitionTime: "2020-03-06T19:07:27Z"
     message: kubelet has no disk pressure
     reason: KubeletHasNoDiskPressure
     status: "False"
     type: DiskPressure
-  - lastHeartbeatTime: "2020-03-06T22:29:19Z"
-    lastTransitionTime: "2020-03-06T19:07:28Z"
+  - lastHeartbeatTime: "2020-03-06T22:44:50Z"
+    lastTransitionTime: "2020-03-06T19:07:27Z"
     message: kubelet has sufficient PID available
     reason: KubeletHasSufficientPID
     status: "False"
     type: PIDPressure
-  - lastHeartbeatTime: "2020-03-06T22:29:19Z"
+  - lastHeartbeatTime: "2020-03-06T22:44:50Z"
     lastTransitionTime: "2020-03-06T19:07:28Z"
     message: kubelet is posting ready status. AppArmor enabled
     reason: KubeletReady
@@ -130,10 +130,6 @@ status:
     - gcr.io/stackdriver-agents/stackdriver-logging-agent@sha256:79ddc530f0e558da80c3857c2e02d8b6dcce64c4c875fb94e3a420f53c502492
     - gcr.io/stackdriver-agents/stackdriver-logging-agent:1.6.17-16060
     sizeBytes: 413364992
-  - names:
-    - nginx@sha256:7224f0a40f2110889889f47dcafa972a8658b7bdd3b50cfa12fd5f80364cbcfe
-    - nginx:1.10.0
-    sizeBytes: 182773691
   - names:
     - k8s.gcr.io/fluentd-elasticsearch@sha256:5a704c386f66bb3c24e3bcf2e94269c426f1473100fcd37b31579ca8b709c558
     - k8s.gcr.io/fluentd-elasticsearch:v2.4.0
@@ -158,6 +154,10 @@ status:
     - k8s.gcr.io/k8s-dns-kube-dns-amd64@sha256:a13c60e2a9d49f965095a1e003388926f3f2a6189ed4aecb1541f114c955f8ec
     - k8s.gcr.io/k8s-dns-kube-dns-amd64:1.15.4
     sizeBytes: 86980681
+  - names:
+    - gke.gcr.io/heapster@sha256:26891d2f8c22407a772b911aed912993e1c530128ebb2d3561b49fc16a52d765
+    - gke.gcr.io/heapster:v1.7.2
+    sizeBytes: 84338494
   - names:
     - gke.gcr.io/kube-proxy:v1.14.10-gke.17
     - k8s.gcr.io/kube-proxy:v1.14.10-gke.17
@@ -227,21 +227,21 @@ status:
     - k8s.gcr.io/gke-node-termination-handler@sha256:e08ca863a547754fa7b75064bdad04f04cbef86c7b0a181ecc7304e747623181
     sizeBytes: 42465304
   - names:
-    - k8s.gcr.io/prometheus-to-sd@sha256:14666989f40bb7c896c3e775a93c6873e2b791d65bc65579f58a078b7f9a764e
-    - k8s.gcr.io/prometheus-to-sd:v0.5.0
-    sizeBytes: 41861013
-  - names:
     - k8s.gcr.io/prometheus-to-sd@sha256:aca8ef83a7fae83f1f8583e978dd4d1ff655b9f2ca0a76bda5edce6d8965bdf2
     - k8s.gcr.io/prometheus-to-sd:v0.4.2
     sizeBytes: 41861013
+  - names:
+    - k8s.gcr.io/prometheus-to-sd@sha256:14666989f40bb7c896c3e775a93c6873e2b791d65bc65579f58a078b7f9a764e
+    - k8s.gcr.io/prometheus-to-sd:v0.5.0
+    sizeBytes: 41861013
   nodeInfo:
     architecture: amd64
-    bootID: c5a5ea82-a34c-482c-bcba-4cdd76b17c23
+    bootID: 5aace252-1be1-42e6-8721-8e9d85a5fa09
     containerRuntimeVersion: docker://18.9.7
     kernelVersion: 4.14.138+
     kubeProxyVersion: v1.14.10-gke.17
     kubeletVersion: v1.14.10-gke.17
-    machineID: 155d2dc283b5577fcf35f4d47cde5e9f
+    machineID: b9ee0220ed3f8876c448dffcab9430b9
     operatingSystem: linux
     osImage: Container-Optimized OS from Google
-    systemUUID: 155D2DC2-83B5-577F-CF35-F4D47CDE5E9F
+    systemUUID: B9EE0220-ED3F-8876-C448-DFFCAB9430B9
