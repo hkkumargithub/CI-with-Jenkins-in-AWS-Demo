@@ -6,9 +6,9 @@ pipeline {
 
         PROJECT_ID = 'peak-radius-261019'
 
-        CLUSTER_NAME = 'k8s-cluster-1'
+        CLUSTER_NAME = 'k8s-cluster-demo'
 
-        LOCATION = 'us-central1-c'
+        LOCATION = 'europe-west1-b'
 
         CREDENTIALS_ID = 'k8s-engine'
 
@@ -56,7 +56,7 @@ pipeline {
 
                 script {
 
-                    myapp = docker.build("hkkumar/k8s:${env.BUILD_ID}")
+                    myapp = docker.build("hkkumar/k8snew:${env.BUILD_ID}")
 
                 }
 
