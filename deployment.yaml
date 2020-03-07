@@ -5,7 +5,7 @@ metadata:
     container.googleapis.com/instance_id: "8887665395021789802"
     node.alpha.kubernetes.io/ttl: "0"
     volumes.kubernetes.io/controller-managed-attach-detach: "true"
-  creationTimestamp: "2020-03-07T11:27:04Z"
+#  creationTimestamp: "2020-03-07T11:27:04Z"
   labels:
     beta.kubernetes.io/arch: amd64
     beta.kubernetes.io/fluentd-ds-ready: "true"
@@ -234,14 +234,14 @@ status:
     - k8s.gcr.io/metrics-server-amd64@sha256:78938f933822856f443e6827fe5b37d6cc2f74ae888ac8b33d06fdbe5f8c658b
     - k8s.gcr.io/metrics-server-amd64:v0.3.1
     sizeBytes: 40767713
-  nodeInfo:
-    architecture: amd64
-    bootID: e05c0d63-521d-4287-a4ec-40f040c0f259
-    containerRuntimeVersion: docker://18.9.7
-    kernelVersion: 4.14.138+
-    kubeProxyVersion: v1.14.10-gke.17
-    kubeletVersion: v1.14.10-gke.17
-    machineID: 159b91aa73f8d2b56a34e9e67e95f44d
-    operatingSystem: linux
-    osImage: Container-Optimized OS from Google
-    systemUUID: 159B91AA-73F8-D2B5-6A34-E9E67E95F44D
+#  nodeInfo:
+#    architecture: amd64
+#    bootID: e05c0d63-521d-4287-a4ec-40f040c0f259
+#    containerRuntimeVersion: docker://18.9.7
+#    kernelVersion: 4.14.138+
+#    kubeProxyVersion: v1.14.10-gke.17
+#    kubeletVersion: v1.14.10-gke.17
+#    machineID: 159b91aa73f8d2b56a34e9e67e95f44d
+#    operatingSystem: linux
+#    osImage: Container-Optimized OS from Google
+#    systemUUID: 159B91AA-73F8-D2B5-6A34-E9E67E95F44D
